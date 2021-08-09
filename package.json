@@ -1,0 +1,29 @@
+{
+  "name": "dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimsibme1/tat-node-dev.git"
+  },
+  "keywords": [
+    "tat"
+  ],
+  "author": "Anh.Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimsibme1/tat-node-dev/issues"
+  },
+  "homepage": "https://github.com/jimsibme1/tat-node-dev#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
